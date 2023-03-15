@@ -1,4 +1,4 @@
-# fly.toml file generated for unobot-telegram on 2022-11-01T22:31:38-03:00
+# fly.toml file generated for unobot-telegram on 2023-03-14T00:00:02-03:00
 
 app = "unobot-telegram"
 kill_signal = "SIGINT"
@@ -6,4 +6,3 @@ kill_timeout = 5
 processes = []
 
 [env]
-

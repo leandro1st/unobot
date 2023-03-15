@@ -56,7 +56,7 @@ def main():
     dp.add_handler(MessageHandler(Filters.all, echo))
 
     j = updater.job_queue
-    job_minute = j.run_repeating(callback_minute, interval=60, first=1)
+    job_minute = j.run_repeating(callback_minute, interval=1, first=1)
 
     # log all errors
     dp.add_error_handler(error)
